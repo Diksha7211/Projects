@@ -1,0 +1,510 @@
+body,html
+	{
+    	margin: 0px;
+    	padding: 0px;
+    	height: 100%;
+    	width: 100%;
+    	scroll-behavior: smooth;
+    }
+    	.navbar li a
+    	{
+    		color:black !important;
+    	}
+    	.navbar .nvactive a 
+    	{
+    		color:#d62863 !important;
+    	}
+    	.navbar a:hover
+    	{
+    		border: 2px solid #d62863;
+    	}
+    	.btn{
+    		background-color: #d62863;
+    		color:white;
+    		border-radius: 20px;
+    		width: 150px;
+    	}
+    	.btn:hover
+    	{
+    		color: white !important;
+    	}
+    	.btn span
+    	{
+    		font-size: 10px !important;
+    	}
+    	.ab
+    	{
+    		height: 80%;
+    		background: url('Images/cover_article1-1300x580-c-default.jpg');
+    		background-repeat: no-repeat;
+    		background-size: 100% 100%;
+    		position: relative;
+    		top: -20px;
+    		left: -20px;
+    	}
+
+    	.ab h3,h1
+    	{
+    		color: #28332b !important;
+    		opacity: 1;
+    	}
+    	.inp{
+    		border-bottom: 5px solid #d62863 ;
+    		background-color: white;
+    		height: 30%;
+    	}
+    	.inp input
+    	{
+    		border-radius: 20px;
+    		border: 0.5px solid lightgrey;
+    		background-color: #f7f7f7;
+    		padding: 8px 20px;
+  			margin: 8px 0;
+    	}
+    	.Card-lft,.Card-rght{
+    		border: 0.5px solid lightgrey;
+    	}
+    	.Card-lft li a
+    	{
+    		text-align: center !important;
+    		text-decoration: none !important;
+    	}
+    	.lstactive a
+    	{
+    		color:#d62863 ;
+    	}
+    	.vert-line,.vert-line2
+    	{
+    		background-color: #d62863;
+    		height: 8px !important;
+    		position: relative;
+    		left: 100px;
+    	}
+    	.vert-line1
+    	{
+    		height: 8px !important;
+    		position: relative;
+    		left: 500px;
+    		top: 42px;
+    		background-color: white;
+    	}
+    	.a1
+    	{
+    		color: yellow;
+    		position: relative;
+    		top: -20px;
+    		left: 150px;
+    		font-size: 18px;
+    		text-shadow:2px 2px 1px #000000;
+    	}
+    	.a2
+    	{
+    		color: #71706f;
+    		position: relative;
+    		top: -20px;
+    		left: 150px;
+    		font-size: 18px;
+    		text-shadow:2px 2px 1px white;
+    	}
+    	.box{
+    		padding: 10px;
+    		height: 140px;
+    		background-color: white;
+    		box-shadow: 0px 0px 3px grey;
+    		border-radius: 5px;
+    		margin-bottom: 10px;
+    	}
+    	.box .col-xs-12
+    	{
+    		height: 100px;
+    	}
+    	.box .text{
+    		text-align: center;
+    	}
+    	.boxactive
+    	{
+    		background-color: #d62863;
+    		color: white;
+    	}
+
+    	@media only screen and (max-width: 1300px)
+    	{
+	    	.box .col-xs-12
+	    	{
+	    		height: 60px;
+	    	}
+
+    	}
+
+    	@media only screen and (max-width: 1200px)
+    	{
+	    	.box{
+	    		padding: 10px;
+	    		height: auto;
+	    		background-color: white;
+	    		box-shadow: 0px 0px 3px grey;
+	    		border-radius: 5px;
+	    		margin-bottom: 10px;
+	    	}
+	    	.box .col-xs-12
+	    	{
+	    		height: auto;
+	    		min-height: 200px;
+	    	}
+	    	.box .text{
+	    		text-align: center;
+	    	}
+	    	.boxactive
+	    	{
+	    		background-color: #d62863;
+	    		color: white;
+	    	}
+
+    	}
+
+    	@media only screen and (max-width: 800px)
+    	{
+	    	.box{
+	    		padding: 10px;
+	    		height: auto;
+	    		background-color: white;
+	    		box-shadow: 0px 0px 3px grey;
+	    		border-radius: 5px;
+	    		margin-bottom: 10px;
+	    	}
+	    	.box .col-xs-12
+	    	{
+	    		height: auto;
+	    		min-height: 150px;
+	    	}
+	    	.box .text{
+	    		text-align: center;
+	    	}
+	    	.boxactive
+	    	{
+	    		background-color: #d62863;
+	    		color: white;
+	    	}
+
+    	}
+
+    	.lst
+    	{
+    		list-style-type: none;
+    	}
+    	.lstactive
+    	{
+    		border-left: 5px solid #d62863;
+			color: #d62863 !important;
+    	}
+    	.shadow{
+    		background-color: black;
+    		opacity: 0.2;
+    	}
+    	.low .lowactive
+    	{
+    		border: 2px solid #d62863;
+    	}
+    	
+    	@media only screen and (max-width: 1395px)
+    	{
+    		
+	    	.low .col-lg-3 .img-responsive
+    		{
+    		height: auto !important;
+    		min-height: 250px !important;
+    		}
+    		.a1,.a2
+    		{
+    			position: relative;
+    			left: 100px;
+    		}
+
+    	}
+    	@media only screen and (max-width: 1190px)
+    	{
+    		
+	    	.low .col-lg-3 .img-responsive
+    		{
+    		height: auto !important;
+    		min-height: 250px !important;
+    		}
+    		.a1,.a2
+    		{
+    			position: relative;
+    			left: 50px;
+    		}
+
+    	}
+    	@media only screen and (max-width: 991px)
+    	{
+    		.low .col-lg-3 .img-responsive
+    		{
+    		height: auto !important;
+    		min-height: 250px !important;
+    		}
+    		.a1,.a2
+    		{
+    			position: relative;
+    			left: 200px;
+    			top: -50px;
+    			font-size: 40px;
+    		}
+
+    	}
+    	@media only screen and (max-width: 616px)
+    	{
+    		
+    		.a1,.a2
+    		{
+    			position: relative;
+    			left: 100px;
+    			top: -50px;
+    			font-size: 25px;
+    		}
+
+    	}
+    	.back
+    	{
+    		height: 70%;
+    		width: 100%	;
+    		background: url('https://media.istockphoto.com/photos/men-beauty-and-health-concept-various-shaving-and-bauty-care-placed-picture-id1251674339?b=1&k=6&m=1251674339&s=170667a&w=0&h=MO8hGcaOEaSDY8NdMhYTzLAPcKO0q7--aSFH27UxaqU=');
+    		background-size: 100% 100%;
+    		background-attachment: fixed;
+    		background-repeat: no-repeat;
+    		position: relative;
+    		top: 10px;
+    	}
+    	.back h2
+    	{
+    		/*position: relative;
+    		top: 40px;*/
+    		text-shadow: 2px 2px 10px solid whitesmoke;
+    	}
+    	.back1,.back2,.back3,.back4
+    	{
+    		padding: 10px;
+    		height: 250px;
+    		background-color: white;
+    		color: black;
+    		margin-top: 7%;
+    		margin-left: 2%;
+    		margin-bottom: 10px;
+    	}
+    	.back1 .img-responsive
+    	{
+    		min-height: 150px;
+    	}
+    	.back2 .img-responsive
+    	{
+    		min-height: 150px;
+    	}
+    	.back3 .img-responsive
+    	{
+    		min-height: 150px;
+    	}
+    	.back4 .img-responsive
+    	{
+    		min-height: 150px;
+    	}
+    	.str1
+    	{
+    		border-radius: 10px;
+    	}
+    	.info
+    	{
+    		height: 30%;
+    		width: 100%	;
+    		background: url('https://static.wixstatic.com/media/ca90de_bde4168bdd0e4511840abe10cb378df6~mv2_d_2710_1814_s_2.jpg/v1/fill/w_640,h_314,al_c,q_80,usm_0.66_1.00_0.01/ca90de_bde4168bdd0e4511840abe10cb378df6~mv2_d_2710_1814_s_2.webp');
+    		background-size: 100% 100%;
+    		background-attachment: fixed;
+    		background-repeat: no-repeat;
+    		position: relative;
+    	}
+    	@media only screen and (max-width: 1199px)
+    	{
+    		
+	    	.back
+	    	{
+	    		height: 70%;
+	    		position: relative;
+	    		top: 10px;
+	    	}
+	    	.back h2
+	    	{
+	    		position: relative;
+	    		top: 40px;
+	    		text-shadow: 2px 2px 10px solid whitesmoke;
+	    	}
+	    	.back1,.back2,.back3,.back4
+	    	{
+	    		padding: 10px;
+	    		height: 150px;
+	    		margin-top: 7%;
+	    		margin-left: 2%;
+	    		margin-bottom: 10px;
+	    	}
+    	}
+    	@media only screen and (max-width: 1199px)
+    	{
+    		
+	    	.back
+	    	{
+	    		height: auto;
+	    		min-height: 250px;
+	    	}
+	    	
+	    	
+	    	.back1,.back2,.back3,.back4
+	    	{
+	    		padding: 10px;
+	    		height: 250px;
+	    		margin-top: 7%;
+	    		margin-left: 2%;
+	    		margin-bottom: 10px;
+	    	}
+    	}
+    	@media only screen and (max-width: 752px)
+    	{
+    		
+	    	.back
+	    	{
+	    		height: auto;
+	    		min-height: 550px;
+	    	}
+	    	.vert-line2
+	    	{
+
+	    		position: relative;
+	    		left: 70px;
+	    	}
+	    	.vert-line1
+	    	{
+	    		position: relative;
+	    		left: 200px;
+	    		top: 42px;
+
+	    	}
+	    	
+	    	.back1,.back2,.back3,.back4
+	    	{
+	    		padding: 10px;
+	    		height: 300px;
+	    		margin-top: 13%;
+	    		margin-left: 2%;
+	    		margin-bottom: 10px;
+	    	}
+    	}
+    	@media only screen and (max-width: 752px)
+    	{
+    		
+	    	.vert-line,.vert-line2
+	    	{
+
+	    		position: relative;
+	    		left: 50px;
+	    	}
+	    	.vert-line1
+	    	{
+	    		position: relative;
+	    		left: 150px;
+	    		top: 42px;
+	    	}
+	    	
+    	}
+    	.recruit
+    	{
+    		height: 800px;
+    	}
+    	 .recr1
+    	{
+    		height: 30%;
+    		border: 2px solid lightgrey;
+    	}
+    	.recr2
+    	{
+    		height: 30%;
+    		border: 2px solid lightgrey;
+    	}
+    	.recr3
+    	{
+    		height: 30%;
+    		border: 2px solid lightgrey;
+    	}
+    	.vid
+    	{
+    		height: 20%;
+    	}
+    	.subs
+    	{
+    		height: 30%;
+    		background-color: #d62863;
+    		position: relative;
+    		/*top: 110px;*/
+    	}
+    	.subs .col-lg-5
+    	{
+    		position: relative;
+    		top: 70px;
+    	}
+    	.subs  input
+    	{
+    		width: 300px;
+    		padding: 10px 15px;
+    		position: relative;
+    		top: 109.5px;
+    		border-top-left-radius: 20px;
+    		border-bottom-left-radius: 20px;
+    		border: 0.5px solid white;
+    		background-color: transparent;
+    	}
+    	.subs  input::placeholder
+    	{
+    		color: white;
+    	}
+    	.subs .bt{
+    		width: 100px;
+    		padding: 10px 15px;
+    		position: relative;
+    		top: 68px;
+    		left: 300px;
+    		border-top-right-radius: 20px;
+    		border-bottom-right-radius: 20px;
+    		border: 0.5px solid white;
+    		background-color: white;
+    	}
+    	.widgets
+    	{
+    		height: 40%;
+    		background-color: black;
+    		opacity: .9;
+    	}
+    	.widgets h1 
+    	{	
+    		color: white !important;
+    	}
+    	.widgets p
+    	{
+    		color: white;
+    	}
+    	.widgets .ord{
+    		color: white;
+    	}
+    	.widgets .ord li{
+    		list-style-type: none;
+    		text-decoration: none;
+    		font-size: 24px;
+
+    	}
+    	.widgets .ord li a
+    	{
+    		color: white;
+    	}
+    	.widgets .ord li a:hover
+    	{
+    		font-size: 28px;
+    	}
+    	.widgets h3,h4
+    	{	
+    		color: white !important;
+    	}
