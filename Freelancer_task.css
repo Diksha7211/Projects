@@ -1,0 +1,91 @@
+body,html
+        {
+            height: 100%;
+            width:100%;
+            margin: 0%;
+            padding:0%;
+            scroll-behavior: smooth;
+        }
+        .main {
+            height: 30rem;
+            width: 100%;
+            background: url('https://i.pinimg.com/originals/aa/ce/1c/aace1c7ca850b0fedc42200acae64d04.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            /* background-color: black; */
+            position: absolute;
+        }
+        .imgg
+        {
+            height: 30rem;
+            width: 50%;
+            background: url('https://i.pinimg.com/originals/0b/aa/7a/0baa7ac4c893ff5e3cb5db44e9f5aa05.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-left: 130%;
+            /* position: relative;
+            top: -0px; */
+            margin-top: -30%;
+        }
+        
+         .txt h1{
+            margin-top: 15%;
+            color: wheat;
+            /* margin-left: -270%; */
+            /* margin-left: -270%; */
+        }
+        
+        .mainactionfield li
+        {
+            list-style-type: none;
+            margin: 0;
+            float: right !important;
+            flex-grow: 0 !important;
+            /* padding:10px 15px; */
+            display:inline;
+        }
+
+        .mainactionfield  nav {
+            background-color: #f5362e;
+            /* color: white; */
+            /* margin-top: 40%; */
+            padding: 0%;
+        }
+
+        .mainactionfield  .navbar .navbar-brand {
+            color: white !important;
+            display: inline;
+            text-decoration: none;
+            font-size: 24px;
+           }
+
+         .navbar-collapse {
+            /* float: right; */
+            color: white !important;
+            display: inline !important;
+            align-items: flex-start;
+            float: right !important;
+            flex-grow: 0 !important;
+        }
+        .navbar-collapse li a{
+            font-size: 24px;
+            color: white !important;
+        }
+        .btn 
+        {
+            background-color: transparent !important;
+            color: thistle;
+            border: 2px solid white;
+        }
+        .btn:hover
+        {
+            color: rgb(0, 0, 0);
+            padding: 10px 15px;
+            background: linear-gradient(to right,transparent 50%, white 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all .5s ease-out;
+            border: none;
+        }

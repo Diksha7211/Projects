@@ -1,0 +1,48 @@
+/* .card-group
+{
+    position:absolute;
+    margin-top: 400px;
+}
+.card-group img
+{
+    height: 50%;
+}
+.card-body
+{
+    height: 45% !important;
+} */
+.thumbnail img
+{
+    /* height: 50%; */
+    width: 100%;
+    margin-top: 490px;
+}
+.thumbnail  a
+{
+    text-decoration: none !important;
+}
+.mainback
+{
+    height: 55%;
+    width: 100%;
+    background: url('https://thumbs.dreamstime.com/b/light-orange-abstract-background-presentation-design-banner-backdrop-201387948.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 300px;
+    border: 2px solid #f5362e;
+    /* position: fixed; */
+}
+.screen3_text
+{
+    margin-top: -175px;
+    margin-left: 30px;
+}
+.btn1
+{
+    background-color: #f5362e;
+    border: none;
+    margin-left: 25%;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+}
