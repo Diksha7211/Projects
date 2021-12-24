@@ -1,0 +1,74 @@
+body,html
+{
+    height: 100%;
+    width:100%;
+    margin: 0%;
+    padding:0%;
+    scroll-behavior: smooth;
+}
+.mainfield
+{
+    height: 63rem !important;
+    /* width: 100%; */
+    /* background: url('https://static.vecteezy.com/system/resources/previews/003/133/949/non_2x/abstract-blur-empty-room-in-a-house-for-background-free-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  */
+    background-color: #D1D8EC;
+    /* margin-top: 72rem; */
+    /* opacity: .8; */
+    position: relative; 
+    z-index:5; 
+}
+.box_one
+{
+    height: 25rem !important;
+    background-color: rgb(255, 60, 1);
+    color: wheat;
+    opacity: .8;
+    /* margin-top: -8rem; */
+    position: relative;
+    z-index:1;
+    box-shadow: -3px 5px 42px 11px rgba(0,0,128,0.61)inset;
+-webkit-box-shadow: -3px 5px 42px 11px rgba(0,0,128,0.61)inset;
+-moz-box-shadow: -3px 5px 42px 11px rgba(0,0,128,0.61)inset;
+border-radius: 20px;
+}
+.box_two
+{
+    height: 25rem !important;
+    background-color: navy;
+    opacity: .8;
+    color: wheat;
+    /* margin-top: -8rem; */
+    border-radius: 20px;
+    box-shadow: -3px 5px 42px 11px rgba(255,60,1,0.61) inset;
+-webkit-box-shadow: -3px 5px 42px 11px rgba(255,60,1,0.61) inset;
+-moz-box-shadow: -3px 5px 42px 11px rgba(255,60,1,0.61) inset;
+    /* position: relative;
+    z-index:2; */
+}
+.box_three
+{
+    height: 25rem !important;
+    background: rgb(0,0,128);
+    background: linear-gradient(270deg, rgba(0,0,128,1) 0%, rgba(255,60,1,1) 100%);
+    opacity: .8;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    border-radius: 20px;
+    box-shadow: -3px 5px 42px 35px rgba(0,0,0,0.61) inset;
+-webkit-box-shadow: -3px 5px 42px 35px rgba(0,0,0,0.61) inset;
+-moz-box-shadow: -3px 5px 42px 35px rgba(0,0,0,0.61) inset;
+    /* position: relative;
+    z-index:2; */
+}
+.box_three:hover
+{
+    background: rgb(2, 2, 153);
+    box-shadow: -3px 5px 42px 11px rgba(255, 255, 255, 0.61);
+-webkit-box-shadow: -3px 5px 42px 11px rgba(255, 255, 255, 0.61);
+-moz-box-shadow: -3px 5px 42px 11px rgba(255, 255, 255, 0.61);
+}
+
+/* //Website color:#f16700 */
